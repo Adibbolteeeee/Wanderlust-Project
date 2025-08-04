@@ -1,0 +1,185 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    flex: 1;
+}
+.navbar {
+    height: 5rem;
+    background-color: white !important;
+}
+.fa-compass {
+    font-size: 2rem;
+    color : #fe424d;
+    margin-right: 1rem;
+}
+
+.nav-link {
+    color: black !important;
+    font-weight: 500;
+}
+
+.f-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    background-color: rgb(255, 237, 240);
+   
+}
+.f-info-socials i {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+.f-info-links {
+    margin-bottom: 1rem;
+
+}
+.f-info-links a {
+    text-decoration: none;
+    color :black;
+}
+.f-info-links a:hover {
+    color: black;
+}
+/* card */
+.listing-card {
+    border:none !important;
+    margin-bottom: 2rem;
+   
+}
+.card-img-top {
+   border-radius: 1rem !important;
+   width: 100% !important;
+   object-fit: cover !important;
+   height: 20rem;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+.img-link {
+    text-decoration: none;
+    color: black;
+}
+
+.img-hover:hover {
+    opacity: .8;
+}
+
+.listing-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.listing-link:hover {
+    color: black;
+}
+
+.index-listing {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.edit-btn, .add-btn, .delete-btn{
+    border: none !important;
+    background-color: #fe424d !important;
+}
+
+.btns {
+    display: flex;
+}
+.btns form {
+    margin-right: 1rem;
+}
+
+.show-card-img {
+    height: 30rem !important;
+}
+.show-card-title {
+    font-size: 1.5rem;
+}
+
+.show-card-text {
+    font-size: 1.25rem;
+}
+
+.login {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; /* Vertical center */
+    gap: 1rem; /* Spacing between items */
+}
+
+.login p {
+    margin: 0; /* Remove default <p> margins */
+}
+
+#filters {
+    display: flex;
+    flex-wrap: wrap;
+}
+.filter {
+    margin-top: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+    opacity: 0.8;
+}
+.filter p {
+    margin-bottom: 0;
+    font-size: 0.8rem
+}
+
+.filter:hover {
+    opacity: 1;
+}
+    
+.filter-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tax-switch {
+    margin-top: 2rem;
+    place-content: center;
+    width: 15rem;
+    height: 3rem;
+    border: 1px solid rgb(134, 108, 108);
+    border-radius: 1rem;
+}
+
+.tax-info {
+    display: none;
+}
+
+.search-btn{
+    background-color: #fe424d ;
+    color: white;
+    border-radius: 1.5rem;
+    padding: 0 1rem 0 1rem;
+}
+.search-btn:hover {
+    background-color: #fe424d ;
+    color: white;
+}
+
+.search-btn i {
+    display: inline;
+    margin-right: .5rem;
+}
+
+.search-input {
+    border-radius: 1.5rem;
+    padding: 0.5rem 3rem 0.5rem 3rem;
+}
